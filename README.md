@@ -2,5 +2,31 @@
 # Custom_Shell_Imp
 Design and Implementation of a Custom Shell Using C++
 =======
-The Custom Shell project is a simple command-line program built in C++ that works like a basic Linux terminal. It takes commands from the user and executes them, either in the foreground or background. The shell supports common operations such as changing directories, listing jobs, checking command history, and exiting the program. It can also handle input and output redirection using symbols like <, >, and >>, and allows connecting multiple commands using a pipe (|). Through this project, I learned how a shell interacts with the operating system using system calls like fork(), execvp(), and wait(). I also understood how processes are created and managed in Linux, how redirection and signals work, and how job control is implemented. This project helped me gain a better understanding of process management, command execution, and low-level programming in C++.
+# 🐚 Custom Shell Project in C++
+
+## Overview
+A fully functional **Custom Shell** written in **C++**, designed to emulate the behavior of a typical Linux command-line interface.  
+This project provides a simplified shell environment capable of executing system commands, handling background and foreground processes, managing jobs, and supporting features like I/O redirection and piping.
+
+The Custom Shell offers hands-on experience in **process management**, **system calls**, and **command execution** at the OS level.
+
+---
+
+## Features
+
+-  **Command Execution**: Supports running standard Linux commands (e.g., `ls`, `cat`, `pwd`, etc.)
+-  **Process Control**: Execute commands in **foreground** or **background**
+-  **Directory Navigation**: Change directories using `cd`
+-  **Command History**: Maintain and view a history of executed commands
+-  **Job Management**: Track, list, and manage background jobs
+-  **I/O Redirection**: Handle input and output redirection (`<`, `>`, `>>`)
+-  **Command Piping**: Chain multiple commands using the pipe operator (`|`)
+-  **Signal Handling**: Graceful handling of `Ctrl+C` and background process signals
+-  **Error Handling**: Detects invalid commands, permissions, and missing files
+
+---
+
+## Project Structure
+
+
 >>>>>>> 3f48e6c (Initial commit - Custom Shell Project by Prakriti Krishna)
